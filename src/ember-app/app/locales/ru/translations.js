@@ -107,6 +107,14 @@ $.extend(true, translations, {
         'приемка-товара': {
           caption: 'Приемка товара',
           title: 'Приемка товара',
+          'i-i-s-dlya-prilozheniya-поставщики-l': {
+            caption: 'Поставщики',
+            title: ''
+          },
+          'i-i-s-dlya-prilozheniya-акт-приемки-l': {
+            caption: 'Акт приемки',
+            title: ''
+          },
           'i-i-s-dlya-prilozheniya-заказ-l': {
             caption: 'Заказ',
             title: ''
@@ -115,16 +123,8 @@ $.extend(true, translations, {
             caption: 'Складское место',
             title: ''
           },
-          'i-i-s-dlya-prilozheniya-поставщики-l': {
-            caption: 'Поставщики',
-            title: ''
-          },
           'i-i-s-dlya-prilozheniya-отпуск-материала-l': {
             caption: 'Отпуск материала',
-            title: ''
-          },
-          'i-i-s-dlya-prilozheniya-акт-приемки-l': {
-            caption: 'Акт приемки',
             title: ''
           },
           'i-i-s-dlya-prilozheniya-товар-l': {
@@ -138,15 +138,35 @@ $.extend(true, translations, {
         },
         заказ: {
           caption: 'Заказ',
-          title: 'Заказ'
+          title: 'Заказ',
+          'i-i-s-dlya-prilozheniya-отпуск-материала-l': {
+            caption: 'Отпуск материала',
+            title: ''
+          },
+          'i-i-s-dlya-prilozheniya-заказ-l': {
+            caption: 'Заказ',
+            title: ''
+          }
         },
         'каталог-товаров': {
           caption: 'Каталог товаров',
-          title: 'Каталог товаров'
+          title: 'Каталог товаров',
+          'i-i-s-dlya-prilozheniya-товар-l': {
+            caption: 'Товар',
+            title: ''
+          }
         },
         'доп-справочники': {
           caption: 'Доп.справочники',
-          title: 'Доп.справочники'
+          title: 'Доп.справочники',
+          'i-i-s-dlya-prilozheniya-сотрудники-l': {
+            caption: 'Сотрудники',
+            title: ''
+          },
+          'i-i-s-dlya-prilozheniya-складское-место-l': {
+            caption: 'Складское место',
+            title: ''
+          }
         }
       }
     },

@@ -9,20 +9,6 @@
       "title": "Приемка товара",
       "children": [
         {
-          "link": "i-i-s-dlya-prilozheniya-заказ-l",
-          "menuName": null,
-          "caption": "Заказ",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-dlya-prilozheniya-складское-место-l",
-          "menuName": null,
-          "caption": "Складское место",
-          "title": "",
-          "children": null
-        },
-        {
           "link": "i-i-s-dlya-prilozheniya-поставщики-l",
           "menuName": null,
           "caption": "Поставщики",
@@ -30,30 +16,9 @@
           "children": null
         },
         {
-          "link": "i-i-s-dlya-prilozheniya-отпуск-материала-l",
-          "menuName": null,
-          "caption": "Отпуск материала",
-          "title": "",
-          "children": null
-        },
-        {
           "link": "i-i-s-dlya-prilozheniya-акт-приемки-l",
           "menuName": null,
           "caption": "Акт приемки",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-dlya-prilozheniya-товар-l",
-          "menuName": null,
-          "caption": "Товар",
-          "title": "",
-          "children": null
-        },
-        {
-          "link": "i-i-s-dlya-prilozheniya-сотрудники-l",
-          "menuName": null,
-          "caption": "Сотрудники",
           "title": "",
           "children": null
         }
@@ -64,21 +29,59 @@
       "menuName": "заказ",
       "caption": "Заказ",
       "title": "Заказ",
-      "children": null
+      "children": [
+        {
+          "link": "i-i-s-dlya-prilozheniya-отпуск-материала-l",
+          "menuName": null,
+          "caption": "Отпуск материала",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dlya-prilozheniya-заказ-l",
+          "menuName": null,
+          "caption": "Заказ",
+          "title": "",
+          "children": null
+        }
+      ]
     },
     {
       "link": null,
       "menuName": "каталог-товаров",
       "caption": "Каталог товаров",
       "title": "Каталог товаров",
-      "children": null
+      "children": [
+        {
+          "link": "i-i-s-dlya-prilozheniya-товар-l",
+          "menuName": null,
+          "caption": "Товар",
+          "title": "",
+          "children": null
+        }
+      ]
     },
     {
       "link": null,
       "menuName": "доп-справочники",
       "caption": "Доп.справочники",
       "title": "Доп.справочники",
-      "children": null
+      "children": [
+        {
+          "link": "i-i-s-dlya-prilozheniya-сотрудники-l",
+          "menuName": null,
+          "caption": "Сотрудники",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-dlya-prilozheniya-складское-место-l",
+          "menuName": null,
+          "caption": "Складское место",
+          "title": "",
+          "children": null
+        }
+      ]
     }
   ],
   "mobile": true
