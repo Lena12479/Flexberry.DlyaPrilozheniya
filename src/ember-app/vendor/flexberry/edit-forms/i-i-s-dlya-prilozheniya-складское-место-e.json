@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Складское место",
+  "name": "IISDlyaPrilozheniyaСкладскоеМестоE",
+  "className": "СкладскоеМестоE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dlya-prilozheniya-складское-место",
+      "modelProjection": "СкладскоеМестоE"
+    }
+  ]
+}

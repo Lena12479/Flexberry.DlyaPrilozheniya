@@ -1,0 +1,75 @@
+﻿{
+  "name": "IISDlyaPrilozheniyaСкладскоеМесто",
+  "modelName": "i-i-s-dlya-prilozheniya-складское-место",
+  "className": "СкладскоеМесто",
+  "nameSpace": "IIS.DlyaPrilozheniya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "номерМеста",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "расшифровка",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "СкладскоеМестоE",
+      "modelName": "i-i-s-dlya-prilozheniya-складское-место",
+      "attrs": [
+        {
+          "name": "номерМеста",
+          "caption": "Номер места",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "расшифровка",
+          "caption": "Расшифровка",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    },
+    {
+      "name": "СкладскоеМестоL",
+      "modelName": "i-i-s-dlya-prilozheniya-складское-место",
+      "attrs": [
+        {
+          "name": "номерМеста",
+          "caption": "Номер места",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "расшифровка",
+          "caption": "Расшифровка",
+          "hidden": false,
+          "index": 1
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

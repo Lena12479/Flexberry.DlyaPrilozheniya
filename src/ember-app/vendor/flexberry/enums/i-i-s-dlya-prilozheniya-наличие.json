@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.DlyaPrilozheniya",
+  "className": "Наличие",
+  "enumObjects": {
+    "Да": "Да",
+    "Нет": "Нет"
+  }
+}

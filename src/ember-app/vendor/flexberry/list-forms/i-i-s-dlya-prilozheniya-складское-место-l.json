@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-dlya-prilozheniya-складское-место-e",
+  "editForm": "i-i-s-dlya-prilozheniya-складское-место-e",
+  "external": false,
+  "caption": "Складское место",
+  "name": "IISDlyaPrilozheniyaСкладскоеМестоL",
+  "className": "СкладскоеМестоL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dlya-prilozheniya-складское-место",
+      "modelProjection": "СкладскоеМестоL"
+    }
+  ]
+}

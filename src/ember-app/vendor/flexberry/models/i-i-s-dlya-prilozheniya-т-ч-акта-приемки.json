@@ -1,0 +1,105 @@
+﻿{
+  "name": "IISDlyaPrilozheniyaТЧАктаПриемки",
+  "modelName": "i-i-s-dlya-prilozheniya-т-ч-акта-приемки",
+  "className": "ТЧАктаПриемки",
+  "nameSpace": "IIS.DlyaPrilozheniya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "складскоеМесто",
+      "relatedTo": "i-i-s-dlya-prilozheniya-складское-место",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "товар",
+      "relatedTo": "i-i-s-dlya-prilozheniya-товар",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "актПриемки",
+      "relatedTo": "i-i-s-dlya-prilozheniya-акт-приемки",
+      "inverse": "тЧАктаПриемки"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТЧАктаПриемкиE",
+      "modelName": "i-i-s-dlya-prilozheniya-т-ч-акта-приемки",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Материал",
+          "lookupValueField": "материал",
+          "relationName": "Товар",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "материал",
+              "caption": "Материал",
+              "hidden": true,
+              "index": 1
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Товар",
+          "name": "товар",
+          "relatedTo": "i-i-s-dlya-prilozheniya-товар",
+          "inverse": null
+        },
+        {
+          "lookupValue": "НомерМеста",
+          "lookupValueField": "номерМеста",
+          "relationName": "СкладскоеМесто",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номерМеста",
+              "caption": "Принимающее СМ",
+              "hidden": true,
+              "index": 4
+            }
+          ],
+          "index": 3,
+          "type": "standard",
+          "caption": "Складское место",
+          "name": "складскоеМесто",
+          "relatedTo": "i-i-s-dlya-prilozheniya-складское-место",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

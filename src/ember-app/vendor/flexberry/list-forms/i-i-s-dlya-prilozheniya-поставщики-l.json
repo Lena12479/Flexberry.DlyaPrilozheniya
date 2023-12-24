@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-dlya-prilozheniya-поставщики-e",
+  "editForm": "i-i-s-dlya-prilozheniya-поставщики-e",
+  "external": false,
+  "caption": "Поставщики",
+  "name": "IISDlyaPrilozheniyaПоставщикиL",
+  "className": "ПоставщикиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dlya-prilozheniya-поставщики",
+      "modelProjection": "ПоставщикиL"
+    }
+  ]
+}

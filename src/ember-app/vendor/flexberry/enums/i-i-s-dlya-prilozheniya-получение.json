@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS.DlyaPrilozheniya",
+  "className": "Получение",
+  "enumObjects": {
+    "Самовывоз": "Самовывоз",
+    "Доставка": "Доставка"
+  }
+}

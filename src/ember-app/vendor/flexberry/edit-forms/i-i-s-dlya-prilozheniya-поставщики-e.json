@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Поставщики",
+  "name": "IISDlyaPrilozheniyaПоставщикиE",
+  "className": "ПоставщикиE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dlya-prilozheniya-поставщики",
+      "modelProjection": "ПоставщикиE"
+    }
+  ]
+}

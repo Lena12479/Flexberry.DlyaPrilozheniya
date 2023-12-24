@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "товар",
+      "displayAttributeName": "материал",
+      "required": true,
+      "relationName": "ТЧЗаказа.Товар",
+      "projection": "ТоварL",
+      "detailModelName": "i-i-s-dlya-prilozheniya-т-ч-заказа"
+    }
+  ],
+  "external": false,
+  "caption": "Заказ",
+  "name": "IISDlyaPrilozheniyaЗаказE",
+  "className": "ЗаказE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dlya-prilozheniya-заказ",
+      "modelProjection": "ЗаказE"
+    }
+  ]
+}

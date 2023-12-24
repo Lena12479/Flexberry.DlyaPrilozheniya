@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-dlya-prilozheniya-акт-приемки-e",
+  "editForm": "i-i-s-dlya-prilozheniya-акт-приемки-e",
+  "external": false,
+  "caption": "Акт приемки",
+  "name": "IISDlyaPrilozheniyaАктПриемкиL",
+  "className": "АктПриемкиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dlya-prilozheniya-акт-приемки",
+      "modelProjection": "АктПриемкиL"
+    }
+  ]
+}

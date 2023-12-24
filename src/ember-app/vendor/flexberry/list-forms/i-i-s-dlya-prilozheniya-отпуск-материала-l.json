@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-dlya-prilozheniya-отпуск-материала-e",
+  "editForm": "i-i-s-dlya-prilozheniya-отпуск-материала-e",
+  "external": false,
+  "caption": "Отпуск материала",
+  "name": "IISDlyaPrilozheniyaОтпускМатериалаL",
+  "className": "ОтпускМатериалаL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-dlya-prilozheniya-отпуск-материала",
+      "modelProjection": "ОтпускМатериалаL"
+    }
+  ]
+}

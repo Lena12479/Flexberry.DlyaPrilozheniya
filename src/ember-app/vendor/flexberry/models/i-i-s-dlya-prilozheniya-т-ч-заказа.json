@@ -1,0 +1,83 @@
+﻿{
+  "name": "IISDlyaPrilozheniyaТЧЗаказа",
+  "modelName": "i-i-s-dlya-prilozheniya-т-ч-заказа",
+  "className": "ТЧЗаказа",
+  "nameSpace": "IIS.DlyaPrilozheniya",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "количество",
+      "type": "number",
+      "flexberryType": "int",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "товар",
+      "relatedTo": "i-i-s-dlya-prilozheniya-товар",
+      "inverse": null
+    },
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "заказ",
+      "relatedTo": "i-i-s-dlya-prilozheniya-заказ",
+      "inverse": "тЧЗаказа"
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ТЧЗаказаE",
+      "modelName": "i-i-s-dlya-prilozheniya-т-ч-заказа",
+      "attrs": [
+        {
+          "name": "количество",
+          "caption": "Количество",
+          "hidden": false,
+          "index": 2
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Материал",
+          "lookupValueField": "материал",
+          "relationName": "Товар",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "материал",
+              "caption": "Материал",
+              "hidden": true,
+              "index": 1
+            },
+            {
+              "name": "цена",
+              "caption": "Цена",
+              "hidden": false,
+              "index": 3
+            }
+          ],
+          "index": 0,
+          "type": "standard",
+          "caption": "Товар",
+          "name": "товар",
+          "relatedTo": "i-i-s-dlya-prilozheniya-товар",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}
